@@ -1,13 +1,16 @@
 @import url(fonts/clear-sans.css);
+html {
+  background: url("http://imageserver.moviepilot.com/game-of-thrones-the-mountain-and-the-viper-beautiful-death-poster.jpeg?width=800&height=600") no-repeat center -223px #000;
+}
 html, body {
   margin: 0;
   padding: 0;
-  background: #faf8ef;
   color: #776e65;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 18px; }
 
 body {
+  background: url('http://2.bp.blogspot.com/-2FiF6xcBLL8/UZcP5qhMnbI/AAAAAAAAACg/VWkAnQuxCxA/s1600/gameofthroneswallpaper.jpg') no-repeat center 25px;
   margin: 80px 0; }
 
 .heading:after {
@@ -150,6 +153,7 @@ hr {
   -ms-touch-action: none;
   touch-action: none;
   background: #bbada0;
+  background: rgba(187, 173, 160, 0.76);
   border-radius: 6px;
   width: 500px;
   height: 500px;
@@ -307,64 +311,80 @@ hr {
   transition-property: transform; }
   .tile .tile-inner {
     border-radius: 3px;
-    background: #eee4da;
-    text-align: center;
-    font-weight: bold;
+    font-size: 55px;
+    background: url('../img/gameofthrones.png') no-repeat;
     z-index: 10;
-    font-size: 55px; }
+    font-size: 55px;
+    width: 50%;
+    height: 50%;
+    margin: 25%;
+    text-indent: -500px;
+    overflow: hidden;
+  }
   .tile.tile-2 .tile-inner {
-    background: #eee4da;
+    background-color: #eee4da;
+    background-position: -16px -27px;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-4 .tile-inner {
-    background: #ede0c8;
+    background-color: #ede0c8;
+    background-position: -61px -23px;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-8 .tile-inner {
+    background-position: -106px -22px;
     color: #f9f6f2;
-    background: #f2b179; }
+    background-color: #f2b179; }
   .tile.tile-16 .tile-inner {
+    background-position: -199px -22px;
     color: #f9f6f2;
-    background: #f59563; }
+    background-color: #f59563; }
   .tile.tile-32 .tile-inner {
+    background-position: -285px -22px;
     color: #f9f6f2;
-    background: #f67c5f; }
+    background-color: #f67c5f; }
   .tile.tile-64 .tile-inner {
+    background-position: -62px -88px;
     color: #f9f6f2;
-    background: #f65e3b; }
+    background-color: #f65e3b; }
   .tile.tile-128 .tile-inner {
+    background-position: -15px -88px;
     color: #f9f6f2;
-    background: #edcf72;
+    background-color: #edcf72;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
     font-size: 45px; }
     @media screen and (max-width: 520px) {
       .tile.tile-128 .tile-inner {
         font-size: 25px; } }
   .tile.tile-256 .tile-inner {
+    background-position: -377px -27px;
     color: #f9f6f2;
-    background: #edcc61;
+    background-color: #edcc61;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);
     font-size: 45px; }
     @media screen and (max-width: 520px) {
       .tile.tile-256 .tile-inner {
         font-size: 25px; } }
   .tile.tile-512 .tile-inner {
+    background-position: -241px -88px;
     color: #f9f6f2;
-    background: #edc850;
+    background-color: #edc850;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);
     font-size: 45px; }
     @media screen and (max-width: 520px) {
       .tile.tile-512 .tile-inner {
         font-size: 25px; } }
   .tile.tile-1024 .tile-inner {
+    background-position: -464px -22px;
     color: #f9f6f2;
-    background: #edc53f;
+    background-color: #edc53f;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571);
     font-size: 35px; }
     @media screen and (max-width: 520px) {
       .tile.tile-1024 .tile-inner {
         font-size: 15px; } }
   .tile.tile-2048 .tile-inner {
+    background-position: -285px -88px;
     color: #f9f6f2;
-    background: #edc22e;
+    background-color: #edc22e;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
     font-size: 35px; }
     @media screen and (max-width: 520px) {
